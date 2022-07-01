@@ -1,0 +1,1127 @@
+/*--------MASTER STYLES---------*/
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    
+}
+
+.logoContainer {
+    background-color: #80db7d;
+    position: sticky;
+}
+
+.logo {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img {
+    max-width: 100%;
+}
+
+/*---------NAV STYLES-----------*/
+
+.wrapper {
+    background-image: url(images/trees1.jpg);
+    background-size: cover;
+    height: 650px;
+    max-width: 1600px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperAbout {
+    background-image: url(images/hedgeBackground1.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperServices {
+    background-image: url(images/chainsaw2.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperGallery {
+    background-image: url(images/trees2.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperContact {
+    background-image: url(images/timber1.jpg);
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    color: honeydew;
+}
+
+#nav-bar {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#nav-bar a {
+    font-size: 24px;
+    color: honeydew;
+}
+
+#nav-bar a:hover {
+    font-size: 24px;
+    color: darkslategray;
+}
+
+#nav-bar .contactLink a:hover {
+    font-size: 24px;
+    color: honeydew;
+}
+
+.navbarNav li {
+    padding: 0 10px;
+}
+
+.navbarNav li a {
+
+    float: right;
+    text-align: left;
+}
+
+
+/*---------TITLE STYLES----------*/
+.titleHolder {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.title {
+    
+    font-size: 100px;
+    color: white;
+    max-width: 100%;
+    
+}
+
+.title2 {
+    
+    font-size: 35px;
+    color: white;
+    margin-top: 50px;
+}
+
+.title3 {
+    
+    font-size: 24px;
+    color: white;
+    margin-top: 30px;
+}
+
+.title4 {
+    
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title5 {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*-------BUTTON STYLES---------*/
+
+.btnContact {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:28px;
+	font-weight:bold;
+	padding:20px 69px;
+	text-decoration:none;
+}
+.btnContact:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnContact:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+.btnServices {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 29px;
+    text-decoration:none;
+    
+    margin-bottom: 10px;
+}
+.btnServices:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnServices:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+.btnAbout {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 29px;
+    text-decoration:none;
+    
+}
+.btnAbout:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnAbout:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+/*----------MAIN CONTENT STYLES------------*/
+#content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+/*----------HOME PAGE---------------*/
+.row {
+    max-width: 1600px;
+    width: 100%;
+}
+
+.indexSubtitle {
+    font-size: 25px;
+}
+
+.textBox1 {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+    font-size: 20px;
+    
+}
+
+.indexImage {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 85%;
+    width: 45%;
+}
+
+.cityGuildsLogo {
+    height: 240px;
+    width: 305px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lantraLogo {
+    height: 190px;
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------ABOUT PAGE--------------*/
+.aboutText {
+
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+    width: 80%;
+}
+
+.aboutImage {
+    height: 260px;
+    width: 360px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.cityGuildsLogoAbout {
+    height: 240px;
+    width: 305px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lantraLogoAbout {
+    height: 190px;
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------SERVICES PAGE------------*/
+.row {
+    justify-content: space-between;   
+}
+
+.col-sm {
+    height: 450px;
+    width: 335px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 14px;
+    
+}
+
+.col-sm h3 {
+    text-align: center;
+}
+
+.treeMaintenanceService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treeFellingService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treePlantingService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hedgeCuttingService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stumpGrindingService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.siteClearanceService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.woodSuppliesService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stormRepairService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.serviceImage {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+/*----------GALLERY PAGE---------------*/
+.image {
+    height: 270px;
+    width: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.imageHolder {
+    height: 265px;
+    width: 360px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*----------CONTACT STYLES------------*/
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left: auto;
+    margin-right: auto;
+    resize: vertical;
+  }
+  
+  
+  button[type=submit] {
+    background-color: rgb(79, 192, 98);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+  
+  button[type=submit]:hover {
+    background-color: rgb(79, 192, 98);
+    
+  }
+  
+  
+  .contactFormContainer {
+    width: 45%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  .contactTextContainer {
+    width: 45%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+} 
+
+/*----------FOOTER STYLES------------*/
+#footer {
+    background-color: rgb(44, 44, 44);
+    
+    
+    color: orangered;
+    
+}
+
+.footerLogo {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerText {
+    position: static;
+    width: auto;
+    text-decoration: none;
+    margin-bottom: 40px;
+    color: rgb(228, 228, 228)
+}
+
+.col {
+    width: 33%;
+    margin-left: 20px;
+    margin-right: auto;
+    position: static;
+    padding: 10px 20px;
+}
+
+.colLeft {
+    width: 33%;
+    margin-top: 60px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.colRight {
+    width: 33%;
+    margin-top: 60px;
+    position: static;
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: auto;
+    color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+.servicesLinks {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+.servicesLinks li a {
+    list-style-type: none;
+    color: rgb(228, 228, 228);
+}
+.servicesLinks li a:hover {
+    list-style-type: none;
+
+    color: rgb(228, 228, 228);
+}
+
+.signature {
+    z-index: 15;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (max-width: 500px) {
+    /*--------MASTER STYLES---------*/
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    
+}
+
+.logoContainer {
+    background-color: #80db7d;
+    position: sticky;
+}
+
+.logo {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img {
+    max-width: 100%;
+}
+
+/*---------NAV STYLES-----------*/
+
+.wrapper {
+    background-image: url(images/trees1.jpg);
+    background-size: cover;
+    height: 630px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperAbout {
+    background-image: url(images/hedgeBackground1.jpg);
+    background-size: cover;
+    height: 650px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperServices {
+    background-image: url(images/chainsaw2.jpg);
+    background-size: cover;
+    height: 650px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperGallery {
+    background-image: url(images/trees2.jpg);
+    background-size: cover;
+    height: 630px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.wrapperContact {
+    background-image: url(images/timber1.jpg);
+    background-size: cover;
+    height: 600px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+#nav-bar {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#nav-bar a {
+    font-size: 24px;
+    color: honeydew;
+}
+
+#nav-bar a:hover {
+    font-size: 24px;
+    color: darkslategray;
+}
+
+#nav-bar .contactLink a:hover {
+    font-size: 24px;
+    color: honeydew;
+}
+
+.navbarNav li {
+    padding: 0 10px;
+}
+
+.navbarNav li a {
+    float: right;
+    text-align: left;
+}
+
+
+/*---------TITLE STYLES----------*/
+.titleHolder {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.title {
+    
+    font-size: 50px;
+    color: white;
+    max-width: 100%;
+    
+}
+
+.title2 {
+    
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.title3 {
+    
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.title4 {
+    
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title5 {
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*-------BUTTON STYLES---------*/
+
+.btnContact {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+}
+.btnContact:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnContact:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+.btnServices {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 29px;
+    text-decoration:none;
+    
+    
+}
+.btnServices:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnServices:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+.btnAbout {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ff9100 5%, #f5621e 100%);
+	background-color:#ff9100;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 29px;
+    text-decoration:none;
+    
+}
+.btnAbout:hover {
+	background:linear-gradient(to bottom, #f5621e 5%, #ff9100 100%);
+    background-color:#f5621e;
+    text-decoration:none;
+    color: honeydew;
+}
+.btnAbout:active {
+	position:relative;
+    top:1px;
+    text-decoration:none;
+    
+}
+
+/*----------MAIN CONTENT STYLES------------*/
+#content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/*----------HOME PAGE STYLES---------------*/
+.row {
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.textBox1 {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 40px;
+    width: 90%;
+    font-size: 12px;
+    
+}
+
+.indexImage {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 100%;
+    width: 85%;
+}
+
+.cityGuildsLogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 30px;
+    height: 55%;
+    width: 35%;
+}
+
+.lantraLogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 30px;
+    height: 55%;
+    width: 35%;
+}
+
+/*------------ABOUT PAGE--------------*/
+.aboutText {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 40px;
+    font-size: 22px;
+    width: 500px;
+}
+
+.aboutImage {
+    position: static;
+    height: 65%;
+    width: 85%;
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+.cityGuildsLogoAbout {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 30px;
+    height: 65%;
+    width: 35%;
+}
+
+.lantraLogoAbout {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 30px;
+    height: 55%;
+    width: 35%;
+}
+
+/*------------SERVICES PAGE-------------*/
+.col-sm {
+    height: 450px;
+    width: 335px;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 14px;
+    
+}
+
+.col-sm h3 {
+    text-align: center;
+}
+
+.treeMaintenanceService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treeFellingService {
+    height: 225px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treePlantingService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hedgeCuttingService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stumpGrindingService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.siteClearanceService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.woodSuppliesService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stormRepairService {
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/*----------GALLERY PAGE---------------*/
+.image {
+    height: 270px;
+    width: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.imageHolder {
+    height: 265px;
+    width: 360px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*----------CONTACT STYLES------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left: auto;
+    margin-right: auto;
+    resize: vertical;
+  }
+  
+  
+  button[type=submit] {
+    background-color: rgb(79, 192, 98);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+  
+  button[type=submit]:hover {
+    background-color: rgb(79, 192, 98);
+    
+  }
+  
+  
+  .contactFormContainer {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: auto;
+  } 
+
+  .contactTextContainer {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: auto;  
+    margin-bottom: 20px;
+} 
+
+/*----------FOOTER STYLES------------*/
+#footer {
+    background-color: rgb(44, 44, 44);
+    
+    
+    color: orangered;
+    
+}
+
+.footerLogo {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerText {
+    position: static;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(228, 228, 228)
+}
+
+.col {
+    width: 100%;
+    margin-left: 35px;
+    margin-right: auto;
+    position: static;
+    text-align: center;
+}
+
+.colLeft {
+    width: 100%;
+    margin-top: 60px;
+    position: static;
+    margin-left: 35px;
+    margin-right: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.colRight {
+    width: 100%;
+    margin-top: 60px;
+    position: static;
+    float: right;
+    margin-left: 35px;
+    margin-right: auto;
+    padding: auto;
+    color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+.servicesLinks {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+.servicesLinks li a {
+    list-style-type: none;
+    color: rgb(228, 228, 228);
+}
+.servicesLinks li a:hover {
+    list-style-type: none;
+
+    color: rgb(228, 228, 228);
+}
+
+.signature {
+    z-index: 15;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10px;
+}
+}
